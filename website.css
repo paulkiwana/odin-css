@@ -8,6 +8,8 @@ body{
     background-color:#3382F6;
     color:#F9FAF8;
     border:1px solid #F9FAF8;
+    border-radius: 10px;
+
 }
 #hero,#footer{
     background-color:#1F2937;
@@ -17,7 +19,7 @@ body{
 }
 .container{
     display: flex;
-    padding: 5px;
+    padding: 20px;
     
 }
 .heading{
@@ -39,11 +41,13 @@ h1{
     background-color: #E5E7EB;
     font-style: italic;
     color:#1F2937;
+
 }
 #signup{
     background-color:#3382F6 ;
     color:#F9FAF8;
     align-items:center;
+    border-radius: 10px;
 }
 #pic{
     padding:5px;
@@ -51,10 +55,15 @@ h1{
 #nav{
     position: relative;
     top:0;
-    right:-2000px;
+    right:-800px;
 
 }
 a{
     text-decoration: none;
     color:gray;
+}
+.pic{
+    border: #3382F6 solid 3px;
+border-radius: 10px;
+
 }
