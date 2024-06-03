@@ -1,7 +1,8 @@
 body{
     align-items: center;
    font-size: 0.3rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin:auto;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 p{
     font-size: 15px;
@@ -54,6 +55,11 @@ left: 200px;
     align-items:center; 
     gap: 8px;
 }
+.signcon{
+    display:flex;
+    padding: 50px;
+    margin-bottom: 50px;
+}
 .heading{
     display: block;
     padding-right: 50px;
@@ -69,18 +75,28 @@ h1{
     
 }
 #quote{
-    font-size: 36px;
+    
     background-color: #E5E7EB;
-    font-style: italic;
+   
     color:#1F2937;
+height:350px;
+}
 
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    position:relative;
+    bottom:-150px
 }
 #signup{
     background-color:#3382F6 ;
     color:#F9FAF8;
     align-items:center;
     border-radius: 10px;
-    
+    width: 500px;
+    align-self: center;
+   margin: auto;
 }
 #pic{
     padding:5px;
