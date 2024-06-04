@@ -10,11 +10,22 @@ p{
 h2{
     font-size: 22px;
     text-align: center;
+    padding-left: 200px;
+    
 }
 
 h3{
-    font-size: 18px;
-
+    font-size: 15px;
+position:relative;
+top:-6px;
+white-space: nowrap;
+}
+#info{
+    position: relative;
+    bottom:-11px;
+    left: -165px;
+    font-size:10px;
+    white-space: nowrap;
 }
 .btn{
     display:block;
@@ -22,15 +33,17 @@ h3{
     color:#F9FAF8;
     border:1px solid #F9FAF8;
     border-radius: 10px;
-
+    width:200px;
+height:30px;
 }
 #hero{
     background-color:#1F2937;
     color:#F9FAF8;
     display: flex;
-    padding: 12px;
+    padding: 60px;
     font-size: 15px;
-    
+    margin: auto;
+    width:100%;
 }
 
 #footer{
@@ -39,26 +52,42 @@ h3{
     display: flex;
     padding: 12px;
     font-size: 15px;
+    width:100%;
     
 }
 
 #text{
 text-align: center;
 position: relative;
-left: 200px;
+left: 400px;
 }
 .container{
     display: flex;
     padding: 20px;
-    width: 300px;
+    width:300px;
     justify-content: space-between;
-    align-items:center; 
+    align-items: center; 
     gap: 8px;
+    position:relative;
+    left:200px
+    
+}
+#welcome{
+    position:relative;
+    left:100px;
+    top:-60px;
+}
+.one {
+    position:relative;
+    left:100px;
+    top:-60px;
 }
 .signcon{
     display:flex;
-    padding: 50px;
+    padding: 30px;
     margin-bottom: 50px;
+    position:relative;
+    bottom:-23px;
 }
 .heading{
     display: block;
@@ -69,17 +98,23 @@ h1{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bold;
+  margin: auto;  
+  position:relative;
+  left:100px;
+  top:-60px;
 }
 #caption{
     display:flex;
     
 }
 #quote{
-    
+    margin: auto;
     background-color: #E5E7EB;
-   
+   width:100%;
     color:#1F2937;
 height:350px;
+padding-left: auto;
+padding-right: auto;
 }
 
 .quote{
@@ -94,17 +129,27 @@ height:350px;
     color:#F9FAF8;
     align-items:center;
     border-radius: 10px;
-    width: 500px;
+    width: 570px;
     align-self: center;
    margin: auto;
+   display: flex;
+   padding-top:20px;
+   padding-bottom:20px;
+   padding-left:50px;
+   padding-right:50px;
+   
 }
 #pic{
     padding:5px;
+    
+
 }
 #nav{
+    display:flex;
     position: relative;
-    top:-70px;
+    top:-110px;
     right:-800px;
+gap:10px;
 
 }
 a{
@@ -119,7 +164,14 @@ width:200px;
 }
 #image{
  position: relative;
- top:auto;
- bottom: auto;
+ top:1px;
+ bottom: -60px;
  padding-top: 25px;
+ left:100px;
+
+}
+header{
+    position:relative;
+    left:100px;
+    top:-50px;
 }
